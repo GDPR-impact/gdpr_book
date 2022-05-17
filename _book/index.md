@@ -1,7 +1,7 @@
 ---
 title: "The Impact of the General Data Protection Regulation (GDPR) on the Online Advertising Market"
 author: "Bernd Skiera, Klaus Miller, Yuxi Jin, Lennart Kraft, Rene Laub, Julia Schmitt"
-date: "`r Sys.Date()`"
+date: "2022-05-17"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -55,9 +55,4 @@ Visit our [website](https://www.marketing.uni-frankfurt.de/abteilungen/marketing
 
 Please do not hesitate to contact [us](mailto:skiera@wiwi.uni-frankfurt.de) with any suggestions or comments!
 
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
-```
+
