@@ -1,3 +1,9 @@
+---
+editor_options: 
+  markdown: 
+    wrap: sentence
+---
+
 # Personal Data Processing under the GDPR
 
 ## Aim and Scope of the GDPR
@@ -10,7 +16,7 @@ As elaborated in what follows, the GDPR defines the concept of personal data pro
 Unlike previous EU privacy laws, which only affected European firms, the GDPR applies not only to EU firms but also to firms outside the EU that process EU citizens' personal data.
 The only case in which the GDPR treats European firms and non-European firms differently is with regard to the processing of personal data of non-EU citizens; in these cases, the GDPR applies to European firms but not to non-European firms, as outlined in Table 2.
 
-![Table 2: Applicability of the GDPR for EU and non-EU Firms Processing Personal Data of EU and non-EU Citizens](images/table2.JPG "Applicability of the GDPR for EU and non-EU Firms Processing Personal Data of EU and non-EU Citizens"){width="537"}
+![Table 2: Applicability of the GDPR for EU and non-EU Firms Processing Personal Data of EU and non-EU Citizens](images_new/table2.png "Applicability of the GDPR for EU and non-EU Firms Processing Personal Data of EU and non-EU Citizens"){width="537"}
 
 ## Definition of Personal Data
 
@@ -34,7 +40,7 @@ Thus, firms that collect data from consumers and seek to avoid the GDPR cannot s
 The GDPR provides users with eight rights related to the processing of their personal data.
 In what follows, and as summarized in Table 3, we classify these rights into three categories: rights that enable users to understand the processing of their personal data (Section 4.3.1); to change the processing of their personal data processing (Section 4.3.2), and to restrict the processing of their personal data (Section 4.3.3).
 
-![Table 3: Overview of User Rights and Their Aims under the GDPR](images/table%203-01.JPG "Overview of User Rights and Their Aims under the GDPR"){width="586"}
+![Table 3: Overview of User Rights and Their Aims under the GDPR](images_new/table3.png "Overview of User Rights and Their Aims under the GDPR"){width="586"}
 
 ### Rights Enabling Users to Understand the Processing of Their Personal Data
 
@@ -125,7 +131,7 @@ Therefore, the firm becomes a data controller.
 The GDPR stipulates several obligations with which both types of actors---the data controller and the data processor---must comply in order to engage in a particular activity involving the processing of personal data.
 Table 4 outlines the most important ones.
 
-![Table 4: Overview of Obligations for both Data Controller and Data Processor under the GDPR](images/table4.JPG "Overview of Obligations for both Data Controller and Data Processor under the GDPR"){width="582"}
+![Table 4: Overview of Obligations for both Data Controller and Data Processor under the GDPR](images_new/table4.png "Overview of Obligations for both Data Controller and Data Processor under the GDPR"){width="582"}
 
 The first obligation---processing any personal data based on a legal basis---entails justifying the data processing activity by choosing an appropriate legal basis; the GDPR stipulates six arguments that constitute acceptable legal bases for personal data processing.
 The choice of a particular legal basis may be associated with additional requirements.
@@ -160,7 +166,7 @@ However, similarly to the firm, the marketing agency needs to document all perso
 The GDPR stipulates several obligations that apply to the data controller but not to the data processor.
 Table 5 outlines the most important ones.
 
-![Table 5: Overview of Obligations only for Data Controller and not for Data Processor](images/table5.JPG "Overview of Obligations only for Data Controller and not for Data Processor"){width="486"}
+![Table 5: Overview of Obligations only for Data Controller and not for Data Processor](images_new/table5.png "Overview of Obligations only for Data Controller and not for Data Processor"){width="486"}
 
 These additional obligations include a requirement for the data controller to select the purposes of processing personal data before processing the personal data.
 Continuing our previous example, for the firm processing consumers' email addresses, the purpose of data processing might be "informing customers about a sales event".
@@ -310,7 +316,7 @@ For grave violation against the PIPL, a firm must pay a fine of up to 5% of its 
 Moreover, the directly responsible person in charge can be fined under PIPL between 10 thousand and 1 million Yuan (\$1,600 to \$160,000).
 So, China's privacy law (PIPL) is roughly as strict as the GDPR in terms of fines, the legal bases and the requirement of consent from the user to use their personal data.
 
-![Table 6: Comparison of Legal Bases for Tracking in Major Privacy Laws Worldwide](images/table6.JPG "Table 6: Comparison of Legal Bases for Tracking in Major Privacy Laws Worldwide"){width="545"}
+![Table 6: Comparison of Legal Bases for Tracking in Major Privacy Laws Worldwide](images_new/table6.png "Table 6: Comparison of Legal Bases for Tracking in Major Privacy Laws Worldwide"){width="545"}
 
 ## Main Takeaways
 

@@ -1,3 +1,9 @@
+---
+editor_options: 
+  markdown: 
+    wrap: sentence
+---
+
 # Getting User Permission for Personal Data Processing via the Transparency and Consent Framework (TCF)
 
 In this section, we delve further into the practical challenges that firms in the advertising industry face in supplying a GDPR-compliant legal basis for their data processing activities.
@@ -13,7 +19,7 @@ A firm faces challenges in each step.
 Table 8 provides an overview of the three steps, the actions that each step entails, and the corresponding challenges, which we discuss in detail in what follows.
 Note that in Table 8 and throughout this section, we use the term "vendors" to refer to other actors (see Section 2.4), in accordance with the terminology used by the TCF.
 
-![Table 8: Steps, Actions, and Challenges in Getting User Permission for Personal Data Processing towards Supplying a Legal Basis under the GDPR](images/table8.JPG "Table 8: Steps, Actions, and Challenges in Getting User Permission for Personal Data Processing towards Supplying a Legal Basis under the GDPR"){width="636"}
+![Table 8: Steps, Actions, and Challenges in Getting User Permission for Personal Data Processing towards Supplying a Legal Basis under the GDPR](images_new/table8.png "Table 8: Steps, Actions, and Challenges in Getting User Permission for Personal Data Processing towards Supplying a Legal Basis under the GDPR"){width="636"}
 
 ### Challenges of Specifying Purposes for Permission
 
@@ -139,7 +145,7 @@ We elaborate on each of these concepts in what follows.
 As pointed out in Section 7.1.1, as the GDPR does not define precisely what a "specified, explicit and legitimate purpose" is, a firm may find it difficult to specify purposes that are GDPR-compliant under the interpretations of all parties, as well as to match its own purposes to those of other firms (in the case of data transfer between firms).
 To overcome these challenges, the TCF proposes ten specific purposes, which are shown in Table 9.
 
-![Table 9: Specification of Purposes in the Transparency and Consent Framework (TCF) 2.0](images/table9.JPG "Specification of Purposes in the Transparency and Consent Framework (TCF) 2.0"){width="565"}
+![Table 9: Specification of Purposes in the Transparency and Consent Framework (TCF) 2.0](images_new/table9.png "Specification of Purposes in the Transparency and Consent Framework (TCF) 2.0"){width="565"}
 
 TCF uses the term "Purpose" to refer to each of the ten purposes specified in Table 9.
 To avoid confusion, throughout the remainder of this section, we refer to "Purpose" specified by the TCF as a "TCF purpose" and refer to a specific TCF purpose (e.g., Purpose 2) as "Purpose N" where "N" is an integer from 1 to 10.
@@ -179,7 +185,7 @@ Special Purpose 1 refers to a firm's legal responsibilities, so a firm must be a
 Special Purpose 2 is technically necessary for delivering information over the network to an IP address.
 Although the "Right to Object" to Special Purposes is not technically supported by the TCF, publishers and their partner vendors can still establish some signaling mechanism to enable the execution of the "Right to Object".
 
-![Table 10: Specification of Special Purposes in the Transparency and Consent Framework (TCF) 2.0](images/table10-01.JPG "Table 10: Specification of Special Purposes in the Transparency and Consent Framework (TCF) 2.0")
+![Table 10: Specification of Special Purposes in the Transparency and Consent Framework (TCF) 2.0](images_new/table10.png "Table 10: Specification of Special Purposes in the Transparency and Consent Framework (TCF) 2.0")
 
 ### Facilitating Explicitness of Communication
 
@@ -193,7 +199,7 @@ Note that a Feature is always linked to a TCF purpose and if there is no legal b
 Features require no legal basis, and information about them is provided to the user solely as a means of improving communication explicitness, that is, to provide the user with information about the methods that firms will apply to the user's data to achieve the approved (Special) Purposes.
 Table 11 contains the content of the Features.
 
-![Table 11: Specification of Features in the Transparency and Consent Framework (TCF) 2.0](images/table11.JPG "Table 11: Specification of Features in the Transparency and Consent Framework (TCF) 2.0")
+![Table 11: Specification of Features in the Transparency and Consent Framework (TCF) 2.0](images_new/table11.png "Table 11: Specification of Features in the Transparency and Consent Framework (TCF) 2.0")
 
 #### Special Features
 
@@ -203,14 +209,14 @@ However, Special Features are more privacy intrusive than Features are (e.g., pr
 Therefore, a firm can only use the Special Features with consent as a legal basis.
 Table 12 shows the two Special Features.
 
-![Table 12: Specification of Special Features in the Transparency and Consent Framework (TCF) 2.0](images/table12.JPG "Table 12: Specification of Special Features in the Transparency and Consent Framework (TCF) 2.0")
+![Table 12: Specification of Special Features in the Transparency and Consent Framework (TCF) 2.0](images_new/table12.png "Table 12: Specification of Special Features in the Transparency and Consent Framework (TCF) 2.0")
 
 Figure 15 summarizes the differences in legal bases for Purposes, Special Purposes, Features, and Special Features in TCF.
 A green cell indicates that a particular legal basis (column) is applicable to a particular (Special) Purpose or (Special) Feature (row).
 In almost all cases in which a particular legal basis applies, the user has the right to make a decision, i.e., to provide/deny consent, or to accept/object to the legitimate interest.
 The only exception is for Special Purposes, which are grounded in the legal basis of legitimate interest, and to which the user cannot object.
 
-![Figure 15: Legal Bases for (Special) Purposes and (Special) Features in the Transparency and Consent Framework (TCF) 2.0](images/figure15.JPG "Figure 15: Legal Bases for (Special) Purposes and (Special) Features in the Transparency and Consent Framework (TCF) 2.0")
+![Figure 15: Legal Bases for (Special) Purposes and (Special) Features in the Transparency and Consent Framework (TCF) 2.0](images_new/figure15.png "Figure 15: Legal Bases for (Special) Purposes and (Special) Features in the Transparency and Consent Framework (TCF) 2.0")
 
 ### Facilitating Convenience of Communication with Stacks
 
@@ -224,7 +230,7 @@ As indicated by some DPAs (e.g., CNIL in France), displaying Stacks instead of T
 Nevertheless, the TCF still requires publishers to enable granular choices for each TCF purpose.
 Part of the convenience brought by the TCF might also be that users get progressively used to semi-standardized interfaces and standardized terminology so that they are increasingly efficient in making their choices over time.
 
-![Table 13: Example of a Stack in the Transparency and Consent Framework (TCF) 2.0](images/table13.JPG "Table 13: Example of a Stack in the Transparency and Consent Framework (TCF) 2.0")
+![Table 13: Example of a Stack in the Transparency and Consent Framework (TCF) 2.0](images_new/table13.png "Table 13: Example of a Stack in the Transparency and Consent Framework (TCF) 2.0")
 
 Note that different Stacks may contain overlapping TCF purposes.
 When selecting from the pool of 42 Stacks, a publisher cannot choose Stacks with the same TCF purpose.
@@ -332,7 +338,7 @@ We describe this TCF procedure in detail with three representative cases summari
 For these cases, we assume that one user visits a publisher five days in a row and once a day, and that consent is the legal basis for all pursued purposes.
 We arrange the cases from simple to complex in chronological order from Day 1 to Day 5.
 
-![Table 14: Overview of Cases of Asking for and Storing Consent under the Transparency and Consent Framework (TCF)](images/table14.JPG "Table 14: Overview of Cases of Asking for and Storing Consent under the Transparency and Consent Framework (TCF)")
+![Table 14: Overview of Cases of Asking for and Storing Consent under the Transparency and Consent Framework (TCF)](images_new/table14.png "Table 14: Overview of Cases of Asking for and Storing Consent under the Transparency and Consent Framework (TCF)")
 
 Case 1 is a simple example to help understand how a TC string works.
 A publisher asks a user for consent on its own behalf and stores consent for the user.
@@ -459,7 +465,7 @@ The vendor uses only consent to support Purpose 1, Purpose 3, and Purpose 4.
 The vendor uses only legitimate interest to support Purpose 7 and Purpose 8.
 The vendor uses either consent or legitimate interest to support Purpose 2 and Purpose 9, and in both cases the default legal basis is legitimate interest.
 
-![Table 15: Legal Bases for Purposes under TCF Specification of an Example Vendor (here: Emerse Sverige AB)](images/table15.JPG "Legal Bases for Purposes under TCF Specification of an Example Vendor (here: Emerse Sverige AB)")
+![Table 15: Legal Bases for Purposes under TCF Specification of an Example Vendor (here: Emerse Sverige AB)](images_new/table15.png "Legal Bases for Purposes under TCF Specification of an Example Vendor (here: Emerse Sverige AB)")
 
 A publisher has three options for the vendor for each purpose:
 
@@ -503,7 +509,7 @@ The seven outcomes are as follows:
 
 -   No deal due to user's objection to legitimate interest.
 
-![Figure 19: Outcomes of Actions from a Publisher, a Vendor, and a User When a Publisher Transfers Data to a Vendor](images/figure19.JPG "Outcomes of Actions from a Publisher, a Vendor, and a User When a Publisher Transfers Data to a Vendor")
+![Figure 19: Outcomes of Actions from a Publisher, a Vendor, and a User When a Publisher Transfers Data to a Vendor](images_new/figure19.png "Outcomes of Actions from a Publisher, a Vendor, and a User When a Publisher Transfers Data to a Vendor")
 
 In Figure 19, the cells in green represent a successful deal to transfer data from a publisher to a vendor for one of the purposes.
 The cells in red denote a failed deal to transfer data because the user does not give permission.
@@ -519,7 +525,7 @@ Checking the permission to process and transfer data is more straightforward for
 A vendor cannot use restrictions to adjust the legal basis for another vendor but only accepts whatever is disclosed in the GVL and stored in the TC string.
 Hence, a vendor can be in one of three states: (1) has user permission to process and transfer data (accept consent or accept legitimate interest), (2) does not have user permission to process and transfer data (deny consent or deny legitimate interest), or (3) does not pursue the purpose.
 
-![Figure 20: Outcomes of States of Two Vendors When a Vendor Transfers Data to another Vendor](images/figure20-02.JPG "Figure 20: Outcomes of States of Two Vendors When a Vendor Transfers Data to another Vendor")
+![Figure 20: Outcomes of States of Two Vendors When a Vendor Transfers Data to another Vendor](images_new/figure20.png "Figure 20: Outcomes of States of Two Vendors When a Vendor Transfers Data to another Vendor")
 
 Figure 20 summarizes the outcomes of data transfer between vendors.
 A vendor can only transfer personal data to another vendor if both vendors have the user's permissions, captured by the green cell.

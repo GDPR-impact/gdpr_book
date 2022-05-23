@@ -1,3 +1,9 @@
+---
+editor_options: 
+  markdown: 
+    wrap: sentence
+---
+
 # Overview of the Online Advertising Industry
 
 ## Essential Actors: Advertisers, Publishers and Users
@@ -13,7 +19,7 @@ Thus, there are three essential actors in online advertising (in alphabetical or
 
 Figure 1 outlines the business models of advertisers and publishers; the exchanges that occur among advertisers, publishers and users; and the (often implicit) agreements among them.
 
-![Figure 1: Interplay among the Essential Actors of the Online Advertising Market](images/figure1-01.png){width="588"}
+![Figure 1: Interplay among the Essential Actors of the Online Advertising Market](images_new/figure1.png){width="588"}
 
 Many publishers offer users "free" access to their content---e.g., news---in exchange for the ability to collect data from these users, as well as to provide other actors, such as advertisers, with opportunities to contact the users.
 Thus, even when users ostensibly receive content without paying for it, they are still paying---not with money but with their data and willingness to view ads.
@@ -39,14 +45,14 @@ The ad-selling market is highly concentrated; indeed, in 2020, the top 10 publis
 Google and Facebook are by far the two largest publishers in the Western world.
 The ad-buying marketing is far less concentrated, i.e., there are no advertisers that dominate the demand side in a manner comparable to Google and Facebook on the supply side.
 
-![Figure 2: Size and Share of Different Formats of Online Advertising in the US (IAB 2021)](images/figure2.png){width="546"}
+![Figure 2: Size and Share of Different Formats of Online Advertising in the US (IAB 2021)](images_new/figure2.png){width="546"}
 
 Figure 3 outlines the digital advertising spend per capita for selected European countries (IAB 2020).
 Advertising expenditures per internet user are, by far, highest in the UK (324.70€), followed by Norway (231.30€), Sweden (229.40€), Switzerland (212.40€) and Denmark (194.80€).
 In Germany, the average amount spent per Internet user is 113.40€.
 Figure 3: Digital Advertising Spend per Capita in 15 countries (IAB 2020)
 
-![Figure 3: Digital Advertising Spend per Capita in 15 countries (IAB 2020)](images/figure3.png){width="565"}
+![Figure 3: Digital Advertising Spend per Capita in 15 countries (IAB 2020)](images_new/figure3.png){width="565"}
 
 ## Real-Time Bidding as a Process of Selling Online Advertising
 
@@ -69,7 +75,7 @@ Each interested advertiser submits a bid for displaying its ad to the user; the 
 The ad exchange determines the price and the winner of the auction and forwards this information to the publisher (5).
 The publisher then asks the user's browser to load the ad from the ad server (6), and the ad is subsequently displayed to the user on the publisher's website (7).
 
-![Figure 4: Illustration of the Auction Process in Real-Time Bidding (RTB)](images/figure%204.png){width="615"}
+![Figure 4: Illustration of the Auction Process in Real-Time Bidding (RTB)](images_new/figure4.png){width="615"}
 
 This description of the real-time auction process is a simplification, because it only captures essential steps (for more details, see Cristal 2014, Kosorin 2016, Trusov, Ma, and Jamal 2016 or Wang, Zhang, and Yuan 2017).
 It does not consider, for example, the specific requirements imposed by privacy laws such as the GDPR (which we will outline later in Section 6 when discussing the Transparency and Consent Framework (TCF)).
@@ -80,7 +86,7 @@ We describe these other actors in the following subsection.
 
 Figure 5 classifies the numerous actors in the online advertising industry into several main groups that we will not all cover here.
 
-![Figure 5: Overview of Actors in the Online Advertising Industry (DisplayLUMAscape)](images/figure5.png "Figure 5: Overview of Actors in the Online Advertising Industry (DisplayLUMAscape)"){width="627"}
+![Figure 5: Overview of Actors in the Online Advertising Industry (DisplayLUMAscape)](images_new/figure5.png "Figure 5: Overview of Actors in the Online Advertising Industry (DisplayLUMAscape)"){width="627"}
 
 Note that Luma Partners (2021) refer in this figure to an advertiser as a "marketer" and to users as "people".
 
@@ -105,7 +111,7 @@ This content is available on the publisher's content server.
 The second process (marked in blue) is the process through which ads slots are sold and ads are delivered to the user.
 Our discussion focuses on the latter process; accordingly, in Figure 6, the process marked in orange is simplified and does not include other actors that may be involved in content delivery, such as measurement and analytics providers that track, for example, how often a user saw certain content and that help the publisher optimize its content.
 
-![Figure 6: Delivery of Content and Ads from the User's Perspective when Visiting a Website](images/figure%206.png "Figure 6: Delivery of Content and Ads from the User's Perspective when Visiting a Website"){width="594"}
+![Figure 6: Delivery of Content and Ads from the User's Perspective when Visiting a Website](images_new/figure6.png "Figure 6: Delivery of Content and Ads from the User's Perspective when Visiting a Website"){width="594"}
 
 The process of selling ad slots and delivering ads involves the following steps.
 The publisher's ad server recognizes an available ad slot (usually even multiple ad slots) that the publisher would like to fill with an ad.

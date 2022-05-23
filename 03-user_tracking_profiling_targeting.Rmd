@@ -1,3 +1,9 @@
+---
+editor_options: 
+  markdown: 
+    wrap: sentence
+---
+
 # User Tracking, Profiling, and Targeting in Online Advertising
 
 ## Description of User Tracking Technologies
@@ -15,7 +21,7 @@ For clarity of presentation, in our discussion, we classify the various technolo
 
 Figure 7 presents this classification.
 
-![Figure 7: Categorization of User Tracking Technologies](images/figure7.png "Figure 7: Categorization of User Tracking Technologies"){width="648"}
+![Figure 7: Categorization of User Tracking Technologies](images_new/figure7.png "Figure 7: Categorization of User Tracking Technologies"){width="648"}
 
 ### Single-Device User Tracking
 
@@ -192,7 +198,7 @@ However, the user can delete or alter the SSO, preventing a firm from connecting
 Despite their advantages, SSOs are difficult for a firm to obtain, as not all firms provide users with sufficient value to justify their signing up for an SSO.
 In such a case, firms have to rely on other tracking technologies such as cookies, which may also explain cookies' enduring popularity as a user tracking technology despite their disadvantages.
 
-![Table 1: Comparison of Most Important User Tracking Technologies](images/table1.JPG "Table 1: Comparison of Most Important User Tracking Technologies"){width="612"}
+![Table 1: Comparison of Most Important User Tracking Technologies](images_new/table1.png "Table 1: Comparison of Most Important User Tracking Technologies"){width="612"}
 
 ## Importance of Tracking, Profiling, and Targeting for the Online Advertising Industry
 
@@ -205,7 +211,7 @@ Finally, targeting refers to using these profiles to treat some users differentl
 For advertisers, targeting involves selecting profiles of users who are likely to be suitable audiences for a specific ad (e.g., women with kids), or conversely, selecting ads that are likely to be suitable for a specific user.
 For a publisher, targeting generally involves presenting users with content (e.g., news content for a news publisher) that suits their interests.
 
-![Figure 8: Relationship between Tracking, Profiling and Targeting for Online Advertising](images/figure8.png "Figure 8: Relationship between Tracking, Profiling and Targeting for Online Advertising"){width="530"}
+![Figure 8: Relationship between Tracking, Profiling and Targeting for Online Advertising](images_new/figure8.png "Figure 8: Relationship between Tracking, Profiling and Targeting for Online Advertising"){width="530"}
 
 We note that herein, we focus on targeting users on the basis of data that have been collected about them through tracking technologies; this form of targeting is referred to as "behavioral targeting" in Figure 9.
 It contains "retargeting", also referred to as "remarketing" or "behavioral retargeting" (Lambrecht and Tucker 2013; Bleier and Eisenbeiss 2015; Sahni, Narayanan, and Kalyanam 2019).
@@ -218,7 +224,7 @@ Figure 9 outlines that "contextual targeting" is the other major form of targeti
 It uses the context in which the user appears (e.g., viewing a news forum on investment advice) to draw conclusions about the user's interests and the ads that are likely to be relevant for her.
 For example, a user reading an article about investment advice might be interested in financial products.
 
-![Figure 9: Forms of Targeting in Online Advertising](images/figure9.png "Figure 9: Forms of Targeting in Online Advertising"){width="599"}
+![Figure 9: Forms of Targeting in Online Advertising](images_new/figure9.png "Figure 9: Forms of Targeting in Online Advertising"){width="599"}
 
 ### Importance for Advertisers
 
