@@ -1,7 +1,7 @@
 ---
 title: "The Impact of the General Data Protection Regulation (GDPR) on the Online Advertising Market"
 author: "Bernd Skiera, Klaus Miller, Yuxi Jin, Lennart Kraft, Rene Laub, Julia Schmitt"
-date: "2022-05-25"
+date: "2022-05-30"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
