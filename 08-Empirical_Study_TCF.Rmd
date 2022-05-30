@@ -173,7 +173,7 @@ The assumption is supported by a calculation in which we divide the number of un
 
 Table 19 summarizes the various assumptions.
 
-![Table 19: Summary of Assumptions for Decision Time Calculation](images_new/table19.png "Table 19: Summary of Assumptions for Decision Time Calculation")
+![Table 19: Summary of Assumptions for Decision Time Calculation](images_new/table19.png "Table 19: Summary of Assumptions for Decision Time Calculation"){width="611"}
 
 On the basis of these assumptions, we calculate the amount of time that a user spends per day making decisions.
 Table 20 provides an illustration of this calculation for Case Light.

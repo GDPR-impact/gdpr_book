@@ -1,3 +1,9 @@
+---
+editor_options: 
+  markdown: 
+    wrap: sentence
+---
+
 # Consent Management Tools
 
 In the previous section, we discussed how the GDPR's requirement for a legal basis for data processing---which, for actors in the advertising industry, implies a need to get the user's explicit or implicit permission for data processing---entails costs to both publishers and users.
@@ -11,7 +17,7 @@ It also centralizes information about users' permissions, such as when, where (o
 Table 7 illustrates the core functionalities of a CMP (Gradow and Greiner 2021).
 Though some publishers implement and run their own CMPs in-house, others rely on external firms, called CMP-providers, that implement and run CMPs for them.
 
-![Table 7: Core Functionalities of a Consent Management Platform (CMP)](images/table7.JPG "Core Functionalities of a Consent Management Platform (CMP)")
+![Table 7: Core Functionalities of a Consent Management Platform (CMP)](images_new/table7.png "Core Functionalities of a Consent Management Platform (CMP)"){width="639"}
 
 ### Use of CMPs for Requesting User Permission for Data Processing
 

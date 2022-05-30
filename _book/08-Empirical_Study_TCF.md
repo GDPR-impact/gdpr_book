@@ -1,3 +1,9 @@
+---
+editor_options: 
+  markdown: 
+    wrap: sentence
+---
+
 # Empirical Examination of the Complexity of Getting Permission for Data Processing
 
 ## Aim of the Empirical Study
@@ -43,7 +49,7 @@ Note that an increasing number of vendors have been getting on GVL since TCF 2.0
 Figure 22 depicts the increase in the number of vendors on the GVL (Sep 2019 -- Oct 2021).
 For each of the 803 vendors in the GVL dataset, we recorded the TCF purposes it pursues and the corresponding legal bases that support the TCF purposes.
 
-![Figure 22: Development of Number of Vendors Participating in TCF 2.0](images/figure22-01.png "Figure 22: Development of Number of Vendors Participating in TCF 2.0"){width="569"}
+![Figure 22: Development of Number of Vendors Participating in TCF 2.0](images_new/figure22.png "Figure 22: Development of Number of Vendors Participating in TCF 2.0"){width="569"}
 
 ## Examining the Complexity of Getting Permission for Actors in the Online Advertising Industry
 
@@ -64,7 +70,7 @@ Figure 23 shows a histogram of the number of vendors on the GVL for each publish
 On average, each publisher collaborates with 279.89 vendors.
 In other words, if a new user visits a publisher, then, on average, the publisher has to collect and store the user's permission for data processing on behalf of 279.89 vendors.
 
-![Figure 23: Histogram of Number of Vendors on the GVL for each Publisher in the TCF](images/figure23.png "Figure 23: Histogram of Number of Vendors on the GVL for each Publisher in the TCF"){width="599"}
+![Figure 23: Histogram of Number of Vendors on the GVL for each Publisher in the TCF](images_new/figure23.png "Figure 23: Histogram of Number of Vendors on the GVL for each Publisher in the TCF"){width="599"}
 
 This finding suggests that publishers in the advertising industry have extensive interconnections with partner vendors, such that the process of getting permission for data processing is highly complex.
 One visit from a new user to a publisher triggers permission requests corresponding to hundreds of vendors, followed by storage of information and data transfers.
@@ -88,13 +94,13 @@ Consideration of these three scenarios enables us to obtain a comprehensive esti
 The three scenarios also enable us to capture the heterogeneity of publishers' purpose specifications and cookie banner designs.
 Table 16 shows examples of user decisions in the three scenarios.
 
-![Table 16: Example of User Decisions in Case Heavy, Case Medium, and Case Light](images/table16.JPG "Table 16: Example of User Decisions in Case Heavy, Case Medium, and Case Light"){width="630"}
+![Table 16: Example of User Decisions in Case Heavy, Case Medium, and Case Light](images_new/table16.png "Table 16: Example of User Decisions in Case Heavy, Case Medium, and Case Light"){width="630"}
 
 For each scenario, we used the PV dataset (which specifies publisher--vendor collaborations) together with the GVL dataset (which specifies the purposes that each vendor pursues) to estimate the number of decisions a user must make when visiting a given publisher for the first time.
 
 Table 17 provides an example of how to calculate the number of user decisions for Case Heavy, Case Medium and Case Light.
 
-![Table 17: Example for Calculating Number of User Decisions on Cookie Banner Settings for Scenarios Case Heavy, Case Medium, and Case Light](images/table17.JPG "Table 17: Example for Calculating Number of User Decisions on Cookie Banner Settings for Scenarios Case Heavy, Case Medium, and Case Light"){width="534"}
+![Table 17: Example for Calculating Number of User Decisions on Cookie Banner Settings for Scenarios Case Heavy, Case Medium, and Case Light](images_new/table17.png "Table 17: Example for Calculating Number of User Decisions on Cookie Banner Settings for Scenarios Case Heavy, Case Medium, and Case Light"){width="534"}
 
 On the basis of our PV dataset, we determine that Fandom.com collaborates with 155 vendors.
 For each of these vendors, we use the GVL dataset to quantify the number of user decisions the vendor requires---namely, the number of TCF purposes and Special Features that the vendor pursues.
@@ -127,14 +133,14 @@ We calculated the number of user decisions for each publisher and for all three 
 The result for Case heavy is that a user needs to make 1,896.61 decisions on average for a publisher.
 Figure 25 displays how the number of decisions varies for each publisher.
 
-![Figure 25: Histogram of Number of User Decisions on Cookie Banner for each Publisher in Scenario Case Heavy](images/figure25.png "Figure 25: Histogram of Number of User Decisions on Cookie Banner for each Publisher in Scenario Case Heavy"){width="587"}
+![Figure 25: Histogram of Number of User Decisions on Cookie Banner for each Publisher in Scenario Case Heavy](images_new/figure25.png "Figure 25: Histogram of Number of User Decisions on Cookie Banner for each Publisher in Scenario Case Heavy"){width="587"}
 
 Figure 26 illustrates the results for Case Medium.
 In this scenario, an average user makes 364.89 decisions for each publisher.
 Although the number of decisions, in this case, is substantially lower than those in Case Heavy (1,896.61 decisions), making hundreds of decisions is hardly feasible.
 We will further elaborate on this point by estimating the time spent making decisions in Section 8.4.2.2.
 
-![Figure 26: Histogram of Number of User Decisions on Cookie Banner for each Publisher in Scenario Case Medium](images/figure26.png "Figure 26: Histogram of Number of User Decisions on Cookie Banner for each Publisher in Scenario Case Medium"){width="578"}
+![Figure 26: Histogram of Number of User Decisions on Cookie Banner for each Publisher in Scenario Case Medium](images_new/figure26.png "Figure 26: Histogram of Number of User Decisions on Cookie Banner for each Publisher in Scenario Case Medium"){width="578"}
 
 For Case Light, as discussed in the previous subsection, we assume that an average user makes two decisions for each publisher.
 
@@ -152,7 +158,7 @@ The first row of Table 18 contains the average amount of time (in seconds) spent
 The second row of Table 18 transforms these values into minutes.
 We observe that, on average, a reader spends four minutes reading content on a single website on a single device.
 
-![Table 18: Calculation of Content Reading Time and the Number of Daily Visited Websites](images/table18.JPG "Table 18: Calculation of Content Reading Time and the Number of Daily Visited Websites"){width="583"}
+![Table 18: Calculation of Content Reading Time and the Number of Daily Visited Websites](images_new/table18.png "Table 18: Calculation of Content Reading Time and the Number of Daily Visited Websites"){width="583"}
 
 We further propose that the average user visits 12.47 websites each day.
 The rationale for this assumption is also elaborated in Table 18.
@@ -167,7 +173,7 @@ The assumption is supported by a calculation in which we divide the number of un
 
 Table 19 summarizes the various assumptions.
 
-![Table 19: Summary of Assumptions for Decision Time Calculation](images/table19.JPG "Table 19: Summary of Assumptions for Decision Time Calculation")
+![Table 19: Summary of Assumptions for Decision Time Calculation](images_new/table19.png "Table 19: Summary of Assumptions for Decision Time Calculation")
 
 On the basis of these assumptions, we calculate the amount of time that a user spends per day making decisions.
 Table 20 provides an illustration of this calculation for Case Light.
@@ -179,7 +185,7 @@ An average user spends 49.85 minutes reading the content of websites each day an
 The share of browsing time spent on making decisions is 0.74%.
 The number of additional websites that could have been visited if not making decisions is 0.09.
 
-![Table 20: Calculation of User Decision Time on Cookie Banner in Scenario Case Light](images/Table20.JPG "Table 20: Calculation of User Decision Time on Cookie Banner in Scenario Case Light"){width="595"}
+![Table 20: Calculation of User Decision Time on Cookie Banner in Scenario Case Light](images_new/table20.png "Table 20: Calculation of User Decision Time on Cookie Banner in Scenario Case Light"){width="595"}
 
 Table 21 summarizes the results for each of the three scenarios.
 Under Case Heavy, an average user spends 79.13 minutes per day (approx. 1.5 hours), making the most granular decisions possible, covering 61% of the user's overall browsing time.
@@ -187,7 +193,7 @@ Had the user not spent this time making decisions, she could have visited 19.79 
 The decision cost for this scenario is so high that it hampers a user's browsing experience by taking up 61% of the entire browsing time.
 In practice, this case is hardly feasible.
 
-![Table 21: Summary of User Decision Cost Estimation under Different Scenarios](images/table21.JPG "Table 21: Summary of User Decision Cost Estimation under Different Scenarios"){width="552"}
+![Table 21: Summary of User Decision Cost Estimation under Different Scenarios](images_new/table21.png "Table 21: Summary of User Decision Cost Estimation under Different Scenarios"){width="552"}
 
 In Case Medium, the average user spends 15.46 minutes per day making decisions on permissions, 24% of the overall browsing time.
 Had she not spent this time making decisions, the user could have visited 3.87 more publisher websites.
